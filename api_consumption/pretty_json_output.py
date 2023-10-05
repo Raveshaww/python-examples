@@ -1,7 +1,7 @@
 import requests
 import json
 
-game_steamid = "892970"
+game_steamid = "1829350"
 url = f"https://api.steamcmd.net/v1/info/{game_steamid}"
 
 response = requests.get(
